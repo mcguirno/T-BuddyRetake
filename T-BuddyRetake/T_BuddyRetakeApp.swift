@@ -11,7 +11,8 @@ import SwiftUI
 struct T_BuddyRetakeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StopListView()
+                .modelContainer(for: UserSetting.self)
         }
     }
 }

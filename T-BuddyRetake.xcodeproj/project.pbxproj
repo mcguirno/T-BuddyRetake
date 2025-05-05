@@ -6,17 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4F47DF9F2DC931FB00707218 /* StopInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47DF992DC931FB00707218 /* StopInfo.swift */; };
+		4F47DFA02DC931FB00707218 /* StopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47DF9A2DC931FB00707218 /* StopListView.swift */; };
+		4F47DFA12DC931FB00707218 /* StopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47DF9B2DC931FB00707218 /* StopViewModel.swift */; };
+		4F47DFA22DC931FB00707218 /* T_BuddyRetakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47DF9C2DC931FB00707218 /* T_BuddyRetakeApp.swift */; };
+		4F47DFA32DC931FB00707218 /* UserSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47DF9D2DC931FB00707218 /* UserSetting.swift */; };
+		4F47DFA42DC931FB00707218 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F47DF952DC931FB00707218 /* Preview Assets.xcassets */; };
+		4F47DFA52DC931FB00707218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F47DF972DC931FB00707218 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		4F47DF7A2DC9307800707218 /* T-BuddyRetake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "T-BuddyRetake.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F47DF952DC931FB00707218 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F47DF972DC931FB00707218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F47DF982DC931FB00707218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F47DF992DC931FB00707218 /* StopInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopInfo.swift; sourceTree = "<group>"; };
+		4F47DF9A2DC931FB00707218 /* StopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopListView.swift; sourceTree = "<group>"; };
+		4F47DF9B2DC931FB00707218 /* StopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopViewModel.swift; sourceTree = "<group>"; };
+		4F47DF9C2DC931FB00707218 /* T_BuddyRetakeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T_BuddyRetakeApp.swift; sourceTree = "<group>"; };
+		4F47DF9D2DC931FB00707218 /* UserSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSetting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		4F47DF7C2DC9307800707218 /* T-BuddyRetake */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "T-BuddyRetake";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4F47DF772DC9307800707218 /* Frameworks */ = {
@@ -32,7 +42,7 @@
 		4F47DF712DC9307800707218 = {
 			isa = PBXGroup;
 			children = (
-				4F47DF7C2DC9307800707218 /* T-BuddyRetake */,
+				4F47DF9E2DC931FB00707218 /* T-BuddyRetake */,
 				4F47DF7B2DC9307800707218 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +53,29 @@
 				4F47DF7A2DC9307800707218 /* T-BuddyRetake.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4F47DF962DC931FB00707218 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4F47DF952DC931FB00707218 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F47DF9E2DC931FB00707218 /* T-BuddyRetake */ = {
+			isa = PBXGroup;
+			children = (
+				4F47DF962DC931FB00707218 /* Preview Content */,
+				4F47DF972DC931FB00707218 /* Assets.xcassets */,
+				4F47DF982DC931FB00707218 /* Info.plist */,
+				4F47DF992DC931FB00707218 /* StopInfo.swift */,
+				4F47DF9A2DC931FB00707218 /* StopListView.swift */,
+				4F47DF9B2DC931FB00707218 /* StopViewModel.swift */,
+				4F47DF9D2DC931FB00707218 /* UserSetting.swift */,
+				4F47DF9C2DC931FB00707218 /* T_BuddyRetakeApp.swift */,
+			);
+			path = "T-BuddyRetake";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +92,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				4F47DF7C2DC9307800707218 /* T-BuddyRetake */,
 			);
 			name = "T-BuddyRetake";
 			packageProductDependencies = (
@@ -109,6 +139,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F47DFA42DC931FB00707218 /* Preview Assets.xcassets in Resources */,
+				4F47DFA52DC931FB00707218 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F47DF9F2DC931FB00707218 /* StopInfo.swift in Sources */,
+				4F47DFA02DC931FB00707218 /* StopListView.swift in Sources */,
+				4F47DFA12DC931FB00707218 /* StopViewModel.swift in Sources */,
+				4F47DFA22DC931FB00707218 /* T_BuddyRetakeApp.swift in Sources */,
+				4F47DFA32DC931FB00707218 /* UserSetting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,9 +292,9 @@
 				DEVELOPMENT_TEAM = X5L6A52QN5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "T-BuddyRetake/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -284,9 +321,9 @@
 				DEVELOPMENT_TEAM = X5L6A52QN5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "T-BuddyRetake/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
